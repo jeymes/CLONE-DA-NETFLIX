@@ -1,0 +1,174 @@
+:root {
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos principal*/
+body {
+    background: var(--preto);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: safe;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+}
+
+.icones{
+    margin-left: 650px;
+    font-size: 25px;
+
+}
+.icones i{
+    margin-right: 15px;
+}
+
+.icones i:hover {
+    text-decoration: none;
+    color: rgb(206, 203, 203);
+    margin-right: 10px;
+}
+
+.colunas{
+    margin-left: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(206, 203, 203);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: rgb(153, 153, 153);
+}
+
+/* filmes principal*/
+.filme-principal{ 
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/lucifer.jpg');
+
+    height: 800px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.titulo{
+    color: white;
+    margin-top: 15%;
+    font-size: 40px;
+    margin: 5px;
+    margin-left: 3px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sub-titulo {
+    margin-top: 15px;
+    font-size: 20px;
+    margin: 5px;
+    margin-left: 3px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.botao-mais{
+    background-color: rgba(133, 133, 133, 0.5);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    
+    cursor: pointer;
+    transition: 1s ease all;
+    border-radius: 3%;
+}
+
+.botao-mais:hover{
+    background-color: rgb(117, 117, 117.50);
+}
+
+.botao-play{
+    border: none;
+    color: rgb(0, 0, 0);
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    
+    cursor: pointer;
+    transition: 1s ease all;
+    border-radius: 3%;
+    
+}
+
+.botao-play:hover{
+    background-color: rgb(165, 165, 165);
+    color: black;
+}
+
+.botao:hover{
+    background-color: rgb(255, 255, 255);
+    color: black
+}
+
+.botoes i {
+    margin-right: 5px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.carrosel-filmes .box-filmes{
+    height: 100%;
+    width: 100%;
+    display: block;
+    padding: 0px
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+}
+
+.minha-lista .box-series{
+    height: 0%;
+    width: 0%;
+    display: flex;
+    padding: 10px 20px
+}
+
+.minha-lista{
+    margin-top: 20px;
+}
